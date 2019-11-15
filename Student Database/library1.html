@@ -1,0 +1,30 @@
+<!DOCTYPE Html>
+<html>
+    <head>
+        <title>PHP INSERT UPDATE DELETE SEARCH</title>
+    </head>
+    <body>
+        <form action="php/library1.php" method="post">
+            <input type="text" name="dname" placeholder="sce" value="<?php echo $dname;?>"><br><br>
+            <input type="text" name="book_title"  placeholder="book_title" value="<?php echo $book_title;?>"><br><br>
+            <input type="number" name="book_price" placeholder="book_price"  value="<?php echo $book_price;?>"><br><br>
+            <input type="text" name="book_author" placeholder="book_authors"  value="<?php echo $book_authors;?>"><br><br>
+            <div>
+                <!-- Input For Add Values To Database-->
+                <input type="submit" name="insert" value="Add">
+                
+                <!-- Input For Edit Values -->
+                <input type="submit" name="update" value="Update">
+                
+                <!-- Input For Clear Values -->
+                <input type="submit" name="delete" value="Delete">
+                
+                <!-- Input For Find Values With The given ID -->
+                <input type="submit" name="search" value="Find">
+                
+                <input type="submit" name="display" value="display">
+            </div>
+        </form>
+    </body>
+</html>
+

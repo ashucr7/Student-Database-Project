@@ -1,0 +1,74 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    background:url(images/7.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: cursive;
+}
+.stud{
+    width: 700px;
+    height: 480px;
+    background-color: lightgoldenrodyellow;
+    opacity: 0.65;
+    color: black;
+    font-size: 20px;
+    top: 10%;
+    left: 30%;
+    position: absolute;
+    box-sizing: inherit;
+    padding: 70px 30px;
+    border-radius: 30px;
+    font-weight: bolder;
+    border-width: thick;
+    
+    }
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 0 0 20px;
+    font-style: oblique;
+    color: black;
+
+    
+}
+.stud input[type="text"] , input[type="text"],input[type="text"], input[type="text"],input[type="date"],input[type="text"],input[type="number"]
+{
+    padding: 0 0 0 20px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: darkblue;
+    
+
+    
+}
+.stud input[type="SUBMIT"]
+{
+    position: relative;
+    left: 20%;
+    top: -07px;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 100px;
+    background: lightblue;
+    color: #000;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: 200px;
+
+}
+.stud input[type="SUBMIT"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.stud input[type="SUBMIT"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}

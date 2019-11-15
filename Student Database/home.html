@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Slider</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style1.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta name="robots" content="noindex,follow" />
+      <style>
+          .log{
+              position: fixed;
+              margin-left:1050px;
+          }
+        
+      </style>
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">COLLEGE MANAGEMENT</a>
+
+
+    <form class="form-inline my-2 my-lg-0">  
+    <div class="log">
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Logout</button>
+    </div>
+            </form>
+      </nav>
+
+    <!-- Slider Wrapper -->
+      
+    <div style="margin-top: 70px;" class="css-slider-wrapper">
+        
+      <input type="radio" name="slider" class="slide-radio1" checked id="slider_1">
+      <input type="radio" name="slider" class="slide-radio2" id="slider_2">
+      <input type="radio" name="slider" class="slide-radio3" id="slider_3">
+      <input type="radio" name="slider" class="slide-radio4" id="slider_4">
+
+      <!-- Slider Pagination -->
+      <div class="slider-pagination">
+        <label for="slider_1" class="page1"></label>
+        <label for="slider_2" class="page2"></label>
+        <label for="slider_3" class="page3"></label>
+        <label for="slider_4" class="page4"></label>
+      </div>
+
+      <!-- Slider #1 -->
+      <div class="slider slide-1">
+        
+<!--
+        <form class="form-inline">
+          <div class="form-group mx-sm-3 mb-2">
+            <img src="images/3.jpg">
+          </div>
+          <div class="form-group mx-sm-3 mb-2">
+            <img src="images/5.jpg">
+          </div>
+          <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+        </form>
+--> 
+          <div class="container-fluid">
+<!--
+          <div class="container-fluid" style="width: 70%; float: right; background-image: url('images/3.jpg'); background-size: cover;">
+        <img src="images/3.jpg" width="398px">
+              <textarea hidden>Hulabaloo</textarea>
+-->
+              <img src="images/7.jpg" style="width: 70%; float: right; height: 550px;" />
+          
+          <div class="container-fluid" style="width: 30%; float: left;">
+              <p style="margin-left: 10%; margin-right: 10%; margin-top: 20%; font-family: cursive; font-size: 40px;" >STUDENT DATABASE</p>
+              <a href="index1.html"><button type="button" class="btn btn-danger btn-lg" style="margin-left: 10%; margin-top: 50%;">VIEW DETAILS</button></a>
+          </div>
+          </div>
+
+<!--
+        <div class="slider-content">
+          <h4>student</h4>
+          <h2>details</h2>
+          <button type="button" class="buy-now-btn" name="button">$130</button>
+        </div>
+-->
+        <div class="number-pagination">
+          <span>1</span>
+        </div>
+      </div>
+
+      <!-- Slider #2 -->
+      <div class="slider slide-2">
+           <div class="container-fluid">
+        <img src="images/amp2.jpg" style="width:60% ;float: right;height: 550px;" alt="">
+
+               <div class="container-fluid" style="width: 30%; float: left;">
+              <p style="margin-left: 10%; margin-right: 10%; margin-top: 20%;font-size: 40px;font-family: cursive;" >FACULTY DATABASE</p>
+                   <a href="index2.html"><button type="button" class="btn btn-danger btn-lg" style="margin-left: 10%; margin-top: 50%;">VIEW DETAILS</button></a>
+            </div>
+        </div>
+         <div class="number-pagination">
+          <span>2</span>
+        </div>
+      </div>
+
+      <!-- Slider #3 -->
+      <div class="slider slide-3">
+         <div class="container-fluid">
+        <img src="images/col.jpg" style="width:60% ;float: right;height: 550px;" alt="">
+
+               <div class="container-fluid" style="width: 30%; float: left;">
+              <p style="margin-left: 10%; margin-right: 10%; margin-top: 20%;font-size: 40px;font-family: cursive;" >DEPARTMENT DETAILS</p>
+        <a href="index4.html"><button type="button" class="btn btn-danger btn-lg" style="margin-left: 10%; margin-top: 50%;">VIEW DETAILS</button>
+                   </a></div>
+        </div>
+        <div class="number-pagination">
+          <span>3</span>
+        </div>
+      </div>
+
+      <!-- Slider #4 -->
+            <div class="slider slide-4">
+         <div class="container-fluid">
+        <img src="images/lib2.jpg" style="width:60% ;float: right;height: 550px;" alt="">
+
+               <div class="container-fluid" style="width: 30%; float: left;">
+              <p style="margin-left: 10%; margin-right: 10%; margin-top: 20%;font-size: 40px;font-family: cursive;" >LIBRARY DETAILS</p>
+                   <a href="index3.html"><button type="button" class="btn btn-danger btn-lg" style="margin-left: 10%; margin-top: 50%;">VIEW DETAILS </button></a>
+<!--                   <a href="dept.html"><button type="button" class="btn btn-danger btn-lg" style="margin-left: 10%; margin-top: 50%;">OTHER OPERATIONS </button></a>-->
+        
+          </div>
+        </div>
+        <div class="number-pagination">
+          <span>4</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+   
+  </body>
+
+</html>

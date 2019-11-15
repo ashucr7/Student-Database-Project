@@ -1,0 +1,63 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+
+    background-position: center;
+    font-family: sans-serif;
+} 
+.faculty{
+    width: 700px;
+    height: 450px;
+    background: lightyellow;
+    color: #000;
+    top: 10%;
+    left: 30%;
+    position: absolute;
+    box-sizing: inherit;
+    padding: 70px 30px;
+    border-radius: 20px;
+    font-weight: bolder;
+    }
+h1{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 20px;
+    color: red;
+  
+}
+
+.faculty input[type="text"] , input[type="text"],input[type="text"], input[type="text"],input[type="text"],input[type="text"]
+{
+    padding: 0 0 0 20px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: darkblue;
+    font-weight: bold;
+
+    
+}
+.faculty input[type="SUBMIT"]
+{
+    position: relative;
+    left: 50px;
+    top: 30px;
+    border: none;
+    outline: none;
+    height: 30px;
+    background: lightblue;
+    color: #000;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+.faculty input[type="SUBMIT"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+

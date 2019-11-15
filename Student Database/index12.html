@@ -1,0 +1,93 @@
+<?php
+if(isset($_POST['display']))
+{
+   $res=mysqli_query($connect,"select * from student ");
+    
+    echo "<table border=1>";
+    
+    echo "<tr>";
+    echo"<th>"; echo "sname"; echo "</th>";
+         echo"<th>"; echo "usn"; echo "</th>";
+              echo"<th>"; echo "sem"; echo "</th>";
+                   echo"<th>"; echo "dname"; echo "</th>";
+         echo"<th>"; echo "dob"; echo "</th>";
+         echo"<th>"; echo "sgender"; echo "</th>";
+    echo"<th>"; echo "sphn"; echo "</th>";
+            
+                       echo "</tr>";
+    
+    while($row=mysqli_fetch_array($res))
+    {
+        echo "<tr>";
+        echo "<td>"; echo $row["sname"]; echo "</td>";
+        echo "<td>"; echo $row["usn"]; echo "</td>";
+        echo "<td>"; echo $row["sem"]; echo "</td>";
+        echo "<td>"; echo $row["dname"]; echo "</td>";
+        echo "<td>"; echo $row["dob"]; echo "</td>";
+        echo "<td>"; echo $row["sgender"]; echo "</td>";
+        echo "<td>"; echo $row["sphn"]; echo "</td>";
+        echo "</tr>";
+        
+        
+    }
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>index1</title>
+        <style type="text/css">
+            
+            .body{
+     
+        margin: 0;
+    padding: 0;
+    background:url(images/11.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: cursive;
+}
+    
+            .heading{
+                text-align: center;
+                font-family: cursive;
+                font-size: 40px;
+                color: black;
+                
+                
+            }
+            .button{
+                display: block;
+                width: 350px;
+                color: white;
+                height: 70px;
+                font-family: cursive;
+                background-color: peachpuff;
+                border-spacing: 10px;
+                font-size: 25px;
+                border-radius: 10px;
+                outline-color: aqua;
+            }
+        
+            .button:hover{
+                cursor: pointer;
+                 background: #ffc107;
+                color: #000;
+            }
+        
+        </style>
+    </head>
+    <body class="body">
+        <div class="heading">
+        <h1>STUDENT DATABASE</h1>
+        </div>
+     <button class="button">   
+         <a  href="C:\xampp\htdocs\miniproject\php\stud.php">View</a></button>
+        <button class="button">
+            <a href="fee.html">FEE REPORT</a>
+        </button>
+         <button class="button">
+            <a href="hostel.html">HOSTEL REPORT</a>
+        </button>
+        
+   </body>
+</html>

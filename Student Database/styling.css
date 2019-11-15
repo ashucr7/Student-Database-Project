@@ -1,0 +1,59 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    background:url(images/pic3.jpg);
+    background-position: center;
+    font-family: sans-serif;
+}
+.stud{
+    width: 700px;
+    height: 450px;
+    background: lightyellow;
+    color: #000;
+    top: 10%;
+    left: 30%;
+    position: absolute;
+    box-sizing: inherit;
+    padding: 70px 30px;
+    border-radius: 20px;
+    }
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 0 0 20px;
+    color: red;
+
+    
+}
+.stud input[type="text"] , input[text="password"],input[type="sem"], input[type="Date of birth"],input[type="Department"],input[type="Phone number"]
+{
+    padding: 0 0 0 20px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: darkblue;
+
+    
+}
+.stud input[type="SUBMIT"]
+{
+    position: relative;
+    left: 3
+        0px;
+    top: 30px;
+    border: none;
+    outline: none;
+    height: 30px;
+    background: lightblue;
+    color: #000;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+.stud input[type="SUBMIT"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}

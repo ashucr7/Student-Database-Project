@@ -1,0 +1,112 @@
+<html>
+<head>
+    <title>department registeration</title>
+    <link rel="stylesheet" type="text/css">
+    <style type="text/css">
+        .image{
+    margin: 0;
+    padding: 0;
+    background:url(images/acharya.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: cursive;
+        }
+        
+    .stud{
+    width: 700px;
+    height: 300px;
+    
+    opacity: 0.5;
+    color: black;
+    font-size: 20px;
+    top: 20%;
+    left: 30%;
+    position: absolute;
+    box-sizing: inherit;
+    padding: 70px 30px;
+    border-radius: 30px;
+    font-weight: bolder;
+    background-color: lightgoldenrodyellow;
+    border-width: thick;
+    
+    }
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 0 0 20px;
+    font-style: oblique;
+    color: black;
+
+    
+}
+.stud input[type="text"] , input[type="text"],input[type="text"], input[type="text"],input[type="date"],input[type="text"],input[type="number"]
+{
+    padding: 0 0 0 20px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: darkblue;
+    
+
+    
+}
+.stud input[type="SUBMIT"]
+{
+    position: relative;
+    width: 90px;
+    height: 40px;
+    left: 15%;
+    top: -04px;
+    border: none;
+    outline: none;
+    height: 30px;
+    background: lightblue;
+    color: #000;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+.stud input[type="SUBMIT"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.stud input[type="SUBMIT"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+    
+    </style>
+    <body class="image">
+        <div class="stud">
+        <h1>department details</h1>
+            <FORM action="php/dept.php" method="post">
+                
+            <p>DEPARTMENT NAME  : 
+                <input type="text" name="dname" placeholder=" cse"></p>
+                
+                
+                <p>NO OF STAFF :
+                <input type="text" name="no_staff" placeholder=""></p>
+                
+                <p>NO OF STUDENTS :
+                <input type="text" name="no_stud" placeholder=""></p>
+                
+                <div>
+                <input type="submit" name="insert" value="ADD">
+                <input type="submit" name="update" value="UPDATE">
+            <input type="submit" name="delete" value="DELETE">
+<!--        <input type="submit" name="search" value="FIND">-->
+<!--                    <input type="submit" name="display" value="DISPLAY">-->
+                    <p><a href="home.html">home</a></p>
+                </div>
+            </FORM>
+     </div>
+    </body>
+    </head>
+</html>
+

@@ -1,0 +1,136 @@
+<html>
+<head>
+    <title>fee report</title>
+    <link rel="stylesheet" type="text/css">
+    <style type="text/css">
+        .image{
+    margin: 0;
+    padding: 0;
+    background:url(images/fee1.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: cursive;
+        }
+        
+        .stud{
+    width: 700px;
+    height: 460px;
+    background-color: lightgoldenrodyellow;
+    opacity: 0.7;
+    color: black;
+    font-size: 20px;
+    top: 10%;
+    left: 30%;
+    position: absolute;
+    box-sizing: inherit;
+    padding: 70px 30px;
+    border-radius: 30px;
+    font-weight: bolder;
+    border-width: thick;
+    
+    }
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 0 0 20px;
+    font-style: oblique;
+    color: orangered;
+
+
+    
+}
+.stud input[type="text"] , input[type="text"],input[type="text"], input[type="text"],input[type="date"],input[type="text"],input[type="number"]
+{
+    padding: 0 0 0 20px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: darkblue;
+    
+
+    
+}
+.stud input[type="SUBMIT"]
+{
+    position: relative;
+    width: 90px;
+    height: 40px;
+    border-spacing: 20px;
+    left: 30%;
+    top: -07px;
+    border: none;
+    outline: none;
+    height: 30px;
+    background: lightblue;
+    color: #000;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+.stud input[type="SUBMIT"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.stud input[type="SUBMIT"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+    
+    </style>
+    
+    </head>
+    <body class="image">
+     <div class="stud">
+    <h1>Fee Report</h1>
+        <form action="php/fee.php" method="post">
+            
+            <p>BILL_NUMBER :
+            <input type="text" name="bill_no" placeholder=" ex:1" value=""></p>
+            
+            
+            <p>USN : 
+                <input type="text" name="usn" placeholder="  1AY*******" value=""></p>
+    
+            
+
+            
+              <p>DATE OF PAYMENT : 
+                <input type="date" name="date_of_payment" placeholder="" value=""></p>
+            
+            
+            
+            
+            <p>TOTAL FEES :
+            <input type="text" name="total" placeholder="" value=""></p>
+            
+            <p>PAID FEES :
+            <input type="text" name="paid" placeholder="" value=""></p>
+            
+             <p>BALANCE FEES :
+            <input type="text" name="bal" placeholder="" value=""></p>
+            
+           <div class="button"> 
+              
+                 <input type="submit" name="insert" value="ADD">
+                    <input type="submit" name="update" value="UPDATE">
+                    <input type="submit" name="delete" value="DELETE">
+<!--                    <input type="submit" name="search" value="FIND">-->
+<!--                    <input type="submit" name="display" value="DISPLAY">-->
+               <p><a  href="index1.html">back</a></p>
+               
+            </div>
+        </form>
+        </div>
+    
+    </body>
+    
+
+
+
+
+
+</html>

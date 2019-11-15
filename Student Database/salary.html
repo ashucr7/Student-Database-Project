@@ -1,0 +1,128 @@
+<html>
+<head>
+    <title>fee report</title>
+    <link rel="stylesheet" type="text/css">
+    
+   <style type="text/css"> 
+    body{
+    
+    margin: 0;
+    padding: 0;
+    background:url(images/sal.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: cursive;
+}
+.stud{
+    width: 700px;
+    height: 450px;
+    background-color: lightgoldenrodyellow;
+    opacity: 0.5;
+    color: black;
+    font-size: 20px;
+    top: 10%;
+    left: 30%;
+    position: absolute;
+    box-sizing: inherit;
+    padding: 70px 30px;
+    border-radius: 30px;
+    font-weight: bolder;
+    border-width: thick;
+    
+    }
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 0 0 20px;
+    font-style: oblique;
+    color: black;
+
+    
+}
+.stud input[type="text"] , input[type="text"],input[type="text"], input[type="text"],input[type="date"],input[type="text"],input[type="number"]
+{
+    padding: 0 0 0 20px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: darkblue;
+    
+
+    
+}
+.stud input[type="SUBMIT"]
+{
+    position: relative;
+    left: 20%;
+    top: -07px;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 100px;
+    background: lightblue;
+    color: #000;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: 200px;
+
+}
+.stud input[type="SUBMIT"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.stud input[type="SUBMIT"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+    </style>
+    <body>
+     <div class="stud">
+    <h1>SALARY DETAIL REPORT</h1>
+        <form action="php/salary.php" method="post">
+            
+            <p>EMPLOYEE ID :
+            <input type="text" name="eid" placeholder=" "></p>
+            
+        
+            
+        
+            
+            <p>BASIC SALARY :
+                <input type="text" name="basic_sal" placeholder=" " value=""></p>
+            
+            <p>HRA : 
+                <input type="text" name="hra" placeholder="" value=""></p>
+            
+            <p>DA :
+            <input type="text" name="da" placeholder="" value=""></p>
+            
+            <p>GROSS SALARY :
+            <input type="text" name="gross_sal" placeholder="" value=""></p>
+            
+             
+            
+           <div class="button1"> 
+        
+              <input type="submit" name="insert" value="ADD"> 
+               <input type="submit" name="update" value="UPDATE">
+               <input type="submit" name="delete" value="DELETE">
+<!--               <input type="submit" name="search" value="FIND">-->
+<!--               <input type="submit" name="display" value="DISPLAY">-->
+               
+               <p><a  href="index2.html">back</a></p>
+               
+            </div>
+        </form>
+        </div>
+    
+    </body>
+    </head>
+
+
+
+
+</html>

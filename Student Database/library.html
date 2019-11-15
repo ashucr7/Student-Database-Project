@@ -1,0 +1,118 @@
+<html>
+<head>
+    <title>library</title>
+    <link rel="stylesheet" type="text/css">
+     <style type="text/css">
+        .image{
+    margin: 0;
+    padding: 0;
+    background:url(images/4.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: cursive;
+        }
+        .stud{
+    width: 700px;
+    height: 400px;
+    background-color: lightgoldenrodyellow;
+    opacity: 0.6;
+    color: black;
+    font-size: 20px;
+    top: 10%;
+    left: 30%;
+    position: absolute;
+    box-sizing: inherit;
+    padding: 70px 30px;
+    border-radius: 30px;
+    font-weight: bolder;
+    
+    border-width: thick;
+    
+    }
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 0 0 20px;
+    font-style: oblique;
+    color: orangered;
+
+    
+}
+.stud input[type="text"] , input[type="text"],input[type="text"], input[type="text"],input[type="date"],input[type="text"],input[type="number"]
+{
+    padding: 0 0 0 20px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: darkblue;
+    
+    
+}
+.stud input[type="SUBMIT"]
+{
+    position: relative;
+    font-weight: bolder;
+    width: 100px;
+    height: 40px;
+    border-spacing: 30px;
+    left: 20%;
+    top: 1px;
+    border: none;
+    outline: none;
+    height: 30px;
+    background: lightblue;
+    color: #000;
+    font-family: cursive;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+.stud input[type="SUBMIT"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.stud input[type="SUBMIT"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+    
+    </style>
+    <body class="image">
+        <div class="stud">
+        <h1>BOOK DETAILS</h1>
+            <FORM action="php/library.php" method="post">
+                
+                <p>BOOK ID : 
+                <input type="text" name="book_id" placeholder=" "></p>
+                
+            <p>DEPARTMENT NAME  : 
+                <input type="text" name="dname" placeholder=" cse"></p>
+                
+                <p>TITLE OF BOOK :
+                <input type="text" name="book_title" placeholder=" "></p>
+                
+                <p>BOOK PRICE :
+                <input type="text" name="book_price" placeholder=""></p>
+                
+                <p>BOOK AUTHOR:
+                <input type="text" name="book_author" placeholder=""></p>
+              
+                <div id="button">
+                <input type="submit" name="insert" value="ADD">
+                    <input type="submit" name="update" value="UPDATE">
+                    <input type="submit" name="delete" value="DELETE">
+<!--                    <input type="submit" name="search" value="FIND">-->
+<!--                    <input type="submit" name="display" value="DISPLAY"> -->
+                    <p><a href="home.html">back</a></p>
+                </div>
+            </FORM>
+     </div>
+    </body>
+    </head>
+</html>
+
+        

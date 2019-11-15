@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>faculty</title>
+    <link rel="stylesheet" type="text/css" href="studstyle.css">
+    <style type="text/css">
+        .image1{
+    margin: 0;
+    padding: 0;
+    background:url(images/emp1.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: cursive;
+        }
+
+    </style>
+    </head>
+    <body class="image1">
+     <div class="stud">
+    <h1>EMPLOYEE REPORT</h1>
+        <form action="php/emp.php" method="post">
+            
+        <p> EMPLOYEE ID :  
+            <input type="text" name="eid" placeholder="  " value=""></p>
+            <p>EMPLOYEE NAME: 
+                <input type="text" name="ename" placeholder="  ENTER NAME" value=""></p>
+            
+
+            
+            <p>DEPARTMENT :
+            <input type="text" name="dname" placeholder="  cse" value=""></p>
+            
+            <p>PHONE NUMBER :
+            <input type="number" name="ephn" placeholder="99********" value=""></p>
+            
+              <p>GENDER :
+            <input type="text" name="gender" placeholder=" " value=""></p>
+            
+              <p>EMPLOYEE ADDRESS :
+            <input type="text" name="eaddress" placeholder=" " value=""></p>
+       <div>     
+            <input type="submit" name="insert" value="ADD">
+            <input type="submit" name="update" value="UPDATE">
+                                                      
+        <input type="submit" name="delete" value="DELETE">
+<!--         <input type="submit" name="search" value="FIND">-->
+<!--           <input type="submit" name="display" value="DISPLAY">-->
+           <p><a href="index2.html">back</a></p>
+            </div>
+           </form>
+        </div>
+    
+    </body>
+    
+   
+
+
+
+
+</html>
